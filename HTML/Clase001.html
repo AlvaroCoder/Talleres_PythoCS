@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SneakerPhotoApp</title>
+</head>
+<body>
+    <!--Cada hipertexto son elementos que abren y se cierran con </>-->
+    <h1>Photos Sneaker App</h1>
+    <main>
+        <h2>Marcas</h2>
+        <ul>
+            <li>Nike</li>
+            <li>Adidas</li>
+            <li>Reebok</li>
+        </ul>        
+        <!--Links e imágenes -->
+        <h1>Nike</h1>
+        <h2>Nike Retro 4</h2>
+        <a href="https://www.nike.com.pe/zapatillas-air-jordan-4-retro/dh6927-061/10746780017.html" target="_blank" rel="noopener noreferrer">
+            <img src="https://images.nike.com/is/image/DotCom/DH6927_061_A_PREM?fmt=jpg&bgc=F5F5F5&iccEmbed=1&wid=800&hei=800" alt="Nike Retro 4" >
+        </a> <br>
+        <a href="https://www.nike.com.pe/zapatillas-air-jordan-4-retro/dh6927-061/10746780017.html" target="_blank" rel="noopener noreferrer">Ver más detalles</a>
+        <p>Colores en <strong>tienda</strong> :</p>
+        <ol>
+            <li>Gris con blanco</li>
+            <li>Negro con Blanco</li>
+            <li>Azul con blanco</li>
+        </ol>
+        <h1>ADIDAS</h1>
+        <h2>ZAPATILLAS RUN 60S 3.0</h2>
+        <a href="https://www.adidas.pe/zapatillas-run-60s-3.0-lifestyle-running/HP2258.html" target="_blank" rel="noopener noreferrer">
+            <img src="../Sources/AdidasRunner1.jpg" alt="Adidas Runner">
+        </a> <br>
+        <a href="https://www.adidas.pe/zapatillas-run-60s-3.0-lifestyle-running/HP2258.html" target="_blank" rel="noopener noreferrer">Ver más</a>
+        <h1>Reebok</h1>
+        <a href="https://www.reebok.pe/zapatillas-energen-run-3-hombre-hp9302/p" target="_blank" rel="noopener noreferrer">
+            <img src="https://reebokpe.vtexassets.com/arquivos/ids/703989/HP9302_1.jpg?v=1775193515" alt="Reebok">
+        </a> <br>
+        <a href="https://www.reebok.pe/zapatillas-energen-run-3-hombre-hp9302/p" target="_blank" rel="noopener noreferrer">Ver más</a>
+        <h2>Suscribete para recibir más ofertas</h2>
+        <form action="/submit-data">
+            <input type="text" placeholder="Nombre" required><br>
+            <input type="email" placeholder="Email" required><br>
+            <input type="password" placeholder="Contraseña" required><br>
+            <!--El atributo "for" de label funciona para el id del input-->
+            <label for="terminos">
+                <input  type="radio" name="term-of" id="terminos"> Acepta términos y condiciones
+            </label>
+            <label for="oferta">
+                <input type="radio" name="term-of" id="oferta"> Recibir todas las ofertas
+            </label> <br>
+            <button type="submit">Registrar</button>
+        </form>
+    </main>
+    <footer>
+        <p>No copyrigth @Alvaro</p>
+    </footer>
+</body>
+</html>
